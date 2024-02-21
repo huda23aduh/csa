@@ -1,5 +1,5 @@
 
-const appBaseUrl = 'http://staging.twixo.io',
+const appBaseUrl = 'https://cfb5-182-253-50-52.ngrok-free.app',
   appAPIVersion = 'v1',
   appUrl = appBaseUrl + '/api/' + appAPIVersion;
 
