@@ -1,3 +1,4 @@
+<script>
 const appBaseUrl = 'http://staging.twixo.io',
   appAPIVersion = 'v1',
   appUrl = appBaseUrl + '/api/' + appAPIVersion;
@@ -3006,3 +3007,4 @@ async function TwixoInit() {
     throw new Error('Unauthorized.');
   }
 }
+</script>
