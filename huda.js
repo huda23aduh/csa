@@ -2,6 +2,8 @@ const appBaseUrl = 'http://staging.twixo.io',
   appAPIVersion = 'v1',
   appUrl = appBaseUrl + '/api/' + appAPIVersion;
 
+console.log("popopopo")
+
 if (!shopifyStoreDomain || shopifyStoreDomain === null) throw new Error('Missing store domain');
 
 if (!shopifyStoreState || shopifyStoreState === null) throw new Error('Missing store state');
